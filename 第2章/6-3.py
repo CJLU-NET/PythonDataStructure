@@ -1,10 +1,8 @@
-def merge_list(la, lb):
-
-
 class LNode:
     def __init__(self, data=None):
         self.data = data  # 结点的数据域
         self.next = None  # 结点的指针域
+
 
 class LinkList:
     def __init__(self):
@@ -30,7 +28,25 @@ class LinkList:
             if p.data is not None:
                 print(p.data, end=' ')
 
-/ *请在这里填写答案 * /
+def intersaction(la, lb):
+    pa = la.head.next
+    pb = lb.head.next
+    lc = LinkList()
+    lc.head.next = None
+    r = lc.head
+
+    while pa is not None and pb is not None:
+        if pa.data == pb.data:
+            r.next = pa
+            r = pa
+            pa = pa.next
+            pb = pb.next
+        elif pa.data < pb.data:
+            pa = pa.next
+        else:
+            pb = pb.next
+
+    return lc
 
 if __name__ == "__main__":
     la = LinkList()
@@ -43,6 +59,6 @@ if __name__ == "__main__":
 
     la.create_list_r(d1)
     lb.create_list_r(d2)
-    lc = merge_list(la, lb)
+    lc = intersaction(la, lb)
 
     lc.show()
