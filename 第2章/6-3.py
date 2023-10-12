@@ -1,3 +1,10 @@
+# 6-3 集合交集-Python
+#
+# 已知两个链表 A 和 B 分别表示两个集合，其元素递增排列。请设计⼀个算法，⽤于求 出 A 与 B 的交集，并存放在 A 链表中。
+#
+# 函数接口定义：
+# def intersaction(la, lb):
+
 class LNode:
     def __init__(self, data=None):
         self.data = data  # 结点的数据域

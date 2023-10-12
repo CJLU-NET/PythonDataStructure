@@ -1,3 +1,10 @@
+# 6-6 链表最大值-Python
+#
+# 设计⼀个算法，通过⼀趟遍历确定⻓度为 n 的单链表中值最⼤的结点。
+#
+# 函数接口定义：
+# def max(la):
+
 class LNode:
     def __init__(self, data=None):
         self.data = data  # 结点的数据域

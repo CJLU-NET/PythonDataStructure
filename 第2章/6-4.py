@@ -1,3 +1,10 @@
+# 6-4 集合差集-Python
+#
+# 已知两个链表 A 和 B 分别表示两个集合，其元素递增排列。请设计算法求出两个集合 A 和 B 的差集（即仅由在 A 中出现⽽不在 B 中出现的元素所构成的集合），并以同样的形式存储， 同时返回该集合的元素个数。
+#
+# 函数接口定义：
+# def difference(la, lb):
+
 class LNode:
     def __init__(self, data=None):
         self.data = data  # 结点的数据域

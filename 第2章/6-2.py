@@ -1,3 +1,10 @@
+# 6-2 有序链表合并（可重复）- Python
+#
+# 将两个⾮递减的有序链表合并为⼀个⾮递减的有序链表。要求结果链表仍使⽤原来两个 链表的存储空间，不另外占⽤其他的存储空间。表中允许有重复的数据。
+#
+# 函数接口定义：
+# def merge_list(la, lb):
+
 class LNode:
     def __init__(self, data=None):
         self.data = data  # 结点的数据域

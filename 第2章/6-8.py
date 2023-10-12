@@ -1,3 +1,10 @@
+# 6-8 链表的条件删除-Python
+#
+# 设计⼀个算法，删除递增有序链表中值⼤于 mink 且⼩于 maxk 的所有元素（mink 和 maxk 是给定的两个参数，其值可以和表中的元素相同，也可以不同）。
+#
+# 函数接口定义：
+# def delete_min_max(la, mink, maxk):
+
 class LNode:
     def __init__(self, data=None):
         self.data = data  # 结点的数据域

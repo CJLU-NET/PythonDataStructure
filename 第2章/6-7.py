@@ -1,3 +1,10 @@
+# 6-7 链表逆置-Python
+#
+# 设计⼀个算法，将链表中所有结点的链接⽅向“原地”逆转，即要求仅利⽤原表的存储空 间，换句话说，要求算法的空间复杂度为 O(1)。
+#
+# 函数接口定义：
+# def inverse(la):
+
 class LNode:
     def __init__(self, data=None):
         self.data = data  # 结点的数据域

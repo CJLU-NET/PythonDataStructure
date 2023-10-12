@@ -1,3 +1,10 @@
+# 6-9 双循环链表节点换序-Python
+#
+# 已知 p 指向双向循环链表中的⼀个结点，其结点结构为 data、prior、next 三个域，写出 算法 change(p)，交换 p 所指向的结点及其前驱结点的顺序。
+#
+# 函数接口定义：
+#   def exchange(self, p):
+
 class LNode:
     def __init__(self, data=None):
         self.data = data

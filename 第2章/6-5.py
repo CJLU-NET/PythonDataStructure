@@ -1,3 +1,10 @@
+# 6-5 链表分解-Python
+#
+# 设计算法将⼀个带头结点的单链表 A 分解为两个具有相同结构的链表 B 和 C，其中 B 表的结点为 A 表中值⼩于零的结点，⽽ C 表的结点为 A 表中值⼤于零的结点（链表 A 中的元素 为⾮零整数，要求 B、C 表利⽤ A 表的结点）。
+#
+# 函数接口定义：
+# def decompose(la):
+
 class LNode:
     def __init__(self, data=None):
         self.data = data  # 结点的数据域
